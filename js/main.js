@@ -32,7 +32,7 @@
 
   // クリックしたらで新しい単語をセットし、ゲームスタート。
 
-  document.addEventListener("click", () => {
+  document.addEventListener("keydown", () => {
     if (isPlaying === true) {
       return;
     }
